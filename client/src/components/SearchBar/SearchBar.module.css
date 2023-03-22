@@ -1,0 +1,30 @@
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.align_items_center {
+    display: flex;
+    align-items: center;
+}
+
+.search_control {
+    height: 1.8rem;
+    width: 200px;
+    font-size: 1rem;
+    padding: 0 .8rem;
+}
+
+.search_control:focus {
+    outline: 0;
+}
+
+.btn {
+    padding: .5rem;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+    transition: .3s all ease;
+}
