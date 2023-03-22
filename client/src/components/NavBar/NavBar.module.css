@@ -1,0 +1,69 @@
+.navbar {
+    background-color: #2B2A32;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap_20 {
+    gap: 20px;
+}
+
+.gap_30 {
+    gap: 30px;
+}
+
+.gap_40 {
+    gap: 40px;
+}
+
+.nav_logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav_logo > span {
+    color: #31A8EE;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+    font-weight: 500;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    padding: .5rem;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.btn_primary {
+    background-color: #217fb6;
+}
+
+.btn_primary:hover {
+    background-color: #3392c9;
+    text-decoration: none;
+}
