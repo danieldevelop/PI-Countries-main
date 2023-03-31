@@ -6,6 +6,7 @@ import Welcome from "./components/Welcome/Welcome";
 import Home from "./components/Home/Home";
 import Error404 from "./components/Error/404/error404";
 import About from "./components/About/About";
+import Detail from "./components/Detail/Detail";
 import AddActivities from "./components/Form/AddActivities/AddActivities";
 
 import "./App.css";
