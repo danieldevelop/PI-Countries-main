@@ -1,0 +1,68 @@
+.form__title {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.formAddActivity {
+    background: rgba(62, 62, 62, 0.51);
+    width: 450px;
+    margin: 0 auto;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: .5rem
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form__group > label {
+    margin-bottom: .5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.form__group > .form__control_sm,
+.form__group > .form__select_sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: none;
+}
+
+.form__group > .form__control_sm:focus,
+.form__group > .form__select_sm:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form__boton {
+    text-transform: uppercase;
+    background: #3E3E3E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .5rem auto;
+    transition: .3s all ease;
+}
+
+.form__boton:hover {
+    background:rgba(13, 110, 253, 0.25);
+}
