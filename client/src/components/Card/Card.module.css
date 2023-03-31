@@ -1,0 +1,36 @@
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.card__title {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #3E3E3E;
+}
+
+.card__title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card__title > h5 {
+    margin: 0;
+    padding: .3rem;
+}
+
+.card__info {
+    color: #3E3E3E;
+    font-weight: 500;
+    margin: 0;
+    padding: .5rem;
+}
+
+/* Le damos este medida provisario ya que NO todas la imagenes 
+tiene la misma proporcion en tamaño */
+.card__img {
+    width: 280px;
+    height: 115px;
+}
