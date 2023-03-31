@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/" component={Welcome} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/detail:id" component={Detail} />
+            <Route exact path="/detail/:id" component={Detail} />
             <Route exact path="/add-activities" component={AddActivities} />
 
             {/* En caso de que no exista la pagina redirecciona un 404 */}
